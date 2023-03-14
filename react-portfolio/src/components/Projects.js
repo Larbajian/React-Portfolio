@@ -1,13 +1,6 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
-import Portfolio from './Portfolio';
 
-function ProjectsContainer() {
-
-const [projects, setProjects] = useState([]);
-
-
-const projects = [
+const Projects = [
     {
         name: 'WalkPerson',
         image: '',
@@ -75,21 +68,4 @@ const projects = [
 
 ];
 
-
-
-export default function Projects() {
-    return(
-        <div>
-            <Portfolio 
-            name= {projects.name}
-            image = {projects.image}
-            languages = {projects.languages}
-            github = {projects.github}
-            example = {projects.example}
-             />
-        </div>
-    );
-}
-
-
-}
+export default Projects;

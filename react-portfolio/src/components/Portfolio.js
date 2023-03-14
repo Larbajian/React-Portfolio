@@ -1,17 +1,24 @@
-import React from 'react';
+import React from "react";
+import Projects from "./Projects";
+import ProjectCards from "./ProjectCards";
 
+const Portfolio = () => {
 
-function Portfolio(props) {
-    return (
-      <div>
-        {props.projects.map((projects) => (
-          <h1 key={projects.id}>
-            {`${props.name}`}
-          </h1>
-  
-        ))}
+    return(
+<div>
+    {Projects.map((e) =>{
+        return(
+            <ProjectCards 
+            name={e.name}
+            image={e.image}
+            languages={e.languages}
+            github={e.github}
+            example={e.example}
+            />
+        );
+    })}
 
-      </div>
+</div>
     );
 }
 

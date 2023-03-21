@@ -14,6 +14,7 @@ const Portfolio = () => {
             languages={e.languages}
             github={e.github}
             example={e.example}
+            description={e.description}
             />
         );
     })}

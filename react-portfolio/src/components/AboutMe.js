@@ -6,7 +6,7 @@ export default function AboutMe() {
       <div>
         <h1 style={{color:'#FFFFF0'}}> About Me </h1>
 
-        <Card style={{ color: '#564E58', fontSize: 'large',fontWeight: 'bold', background: '#6B8F71', display: 'flex', justifyContent:'space-around', marginTop: 30 }}>
+        <Card style={{ backgroundSize:'cover', height: '90vh', color: '#564E58', fontSize: 'large',fontWeight: 'bold', background: '#6B8F71', display: 'flex', justifyContent:'space-around', marginTop: 30 }}>
           <Card.Body>
             I recently earned a certificate in full stack web develop through
             UNC Charlotte. It introduced and made me well a acquainted with

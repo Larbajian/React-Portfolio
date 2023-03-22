@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.345ec4e7.css",
+    "main.js": "/React-Portfolio/static/js/main.c0d616a1.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/LA-data-engineer-BE-dev-resume-react.png": "/React-Portfolio/static/media/LA-data-engineer-BE-dev-resume-react.56c7ef5b98c413750c06.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.345ec4e7.css.map": "/React-Portfolio/static/css/main.345ec4e7.css.map",
+    "main.c0d616a1.js.map": "/React-Portfolio/static/js/main.c0d616a1.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.345ec4e7.css",
+    "static/js/main.c0d616a1.js"
+  ]
+}

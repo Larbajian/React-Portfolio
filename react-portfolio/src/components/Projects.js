@@ -1,9 +1,10 @@
 import React from 'react';
 
+
 const Projects = [
     {
         name: 'WalkPerson',
-        image: '',
+        image: './images/walkPerson500.png',
         languages: 'HTML, CSS, JavaScript, Google Maps API, Spotify API',
         github: 'https://github.com/mhengerer/WalkPerson',
         example: 'https://mhengerer.github.io/WalkPerson/',
@@ -14,7 +15,7 @@ const Projects = [
 
     {
         name: 'Note Taker',
-        image: './src/assets/notetaker1000.png',
+        image: './images/notetaker500.png',
         languages: 'HTML, CSS, JavaScript, Express.js, Node.js',
         github: 'https://github.com/Larbajian/notetaker00',
         description: 'Note Taker is a clean way to take personal notes, save them and delete them once they are no longer relevant.',
@@ -24,7 +25,7 @@ const Projects = [
     },
     {
         name: 'NoSQL - Thoughts Social Network',
-        image: '',
+        image: './images/behindTheScenes500x269.png',
         languages: 'Express.js, Node.js, MongoDB, Mongoose',
         github: 'https://github.com/Larbajian/Social-Network-API',
         example: '',
@@ -34,7 +35,7 @@ const Projects = [
     },
     {
         name: 'E-Commerce',
-        image: '',
+        image: './images/behindTheScenes500x269.png',
         languages: 'Express.js, MySQL',
         github: 'https://github.com/Larbajian/E-Commerce-backend-',
         example: '',
@@ -44,7 +45,7 @@ const Projects = [
     },
     {
         name: 'Day Planner',
-        image: '',
+        image: './images/dayplanner500.png',
         languages: 'HTML, CSS, JavaScript, JQuery',
         github: 'https://github.com/Larbajian/Day-Planner',
         example: 'https://larbajian.github.io/Day-Planner/',
@@ -54,7 +55,7 @@ const Projects = [
     },
     {
         name: 'Tech Blog',
-        image: '',
+        image: './images/behindTheScenes500x269.png',
         languages: 'RESTful API, MVC, Express.hbs',
         github: 'https://github.com/Larbajian/Tech-Blog',
         example: '',
@@ -64,12 +65,12 @@ const Projects = [
     },
     {
         name: 'Password Generator',
-        image: '',
+        image: './images/passwordGen500.png',
         languages: 'JavaScript',
         github: 'https://github.com/Larbajian/Password-Generator',
         example: 'https://larbajian.github.io/Password-Generator/',
         description:'This site creates a random password for you based on parameters that you choose.',
-        id:6
+        id:7
 
     },
 

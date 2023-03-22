@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../assets/LA-data-engineer-BE-dev-resume-react.png';
+import resume from './assets/LA-data-engineer-BE-dev-resume-react.png';
 
 export default function Resume() {
     return(
